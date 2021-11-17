@@ -1,7 +1,67 @@
 *{
     box-sizing: border-box;
+    margin-block-start: 0;
+    margin-block-end: 0;
 }
 body{
     margin: 0;
     padding: 0;
+}
+
+.you{
+    display: flex;
+    width:100%;
+    padding: 0 0 0 20px;
+}
+.you .tube{
+    width: 5%;
+}
+.you h1{
+    font-style: italic;
+    font-size: 40px;
+    margin: 0 0 0 40px;
+    width: 95%;
+}
+@media screen and (max-width:350px){
+    .you{
+        padding: 0;
+    }
+    .tube{
+        width: 30%;
+    }
+    .you h1{
+        width: 70%;
+        font-size: 30px;
+        margin: 0 0 0 50px;
+    }
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+}
+.title{
+    background-color: rgb(56, 55, 55);
+    width: 40%;
+}
+.dog-first{
+    width: 40%;
+}
+.dog-first img{
+    width: 100%;
+}
+.dog-second{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: fit-content;
+}
+
+.col img{
+    width: 100%;
+    height: 50%;
+}
+.column img{
+    width: 100%;
+    height: 50%;
+    margin:-5px 0 0 0;
 }
