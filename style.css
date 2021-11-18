@@ -95,30 +95,17 @@ section{
     }
     .dog-second{
         width: 100%;
-    }
-    .king {
-        display: block;
-    }
-    .main-second {
-        width: 100%;
-        display: flex;
-    }
-    .king-second {
-        width: 100%;
-        display: block;
-    }
-   
+    }  
 }    
 
 .king{
     display: flex;
-    flex-wrap: wrap;
 }
 .main-second{
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
     width: 30%;
+    height: 300px;
 }
 .row{
     width: 50%;
@@ -126,18 +113,37 @@ section{
 .row-second{
     width: 50%;
 }
-.row img{
+.row {
     width: 100%;
-    height: 100%;
+	background-image: url("https://i.pinimg.com/originals/a4/fb/63/a4fb635cf7165b7e6c0111a1c502b9c7.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
-.row-second img{
+.row-second{
     width: 100%;
-    height: 100%;
+	background-image: url("https://st4.depositphotos.com/27201292/i/600/depositphotos_416974632-stock-photo-closeup-vertical-shot-cute-dog.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 .king-second{
-    width: 30%;
+    height: 300px;
 }
-.king-second img{
-    width: 100%;
-    height: 100%;
+.king-second {
+    width: 30%;
+	background-image: url("https://media.4-paws.org/b/e/2/d/be2d88ceb9613ac5066bd11dd950faaf2671bef7/VIER%20PFOTEN_2019-03-15_001-1998x1999-600x600.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+@media screen and (max-width:700px){
+    .king{
+        display: block;
+    }
+    .main-second{
+        width: 100%;
+        display: flex;
+    }
+    .king-second{
+        width: 100%;
+        display: block;
+    }
 }
